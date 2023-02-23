@@ -2,3 +2,44 @@
 ## Desafio DIO. :nerd_face:
 
 Criando meu primeiro repositório e exercitando as abilidades de um futuro desenvolvedor.:wink:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <link rel="stylesheet" href="../style/decodificador.css">
+</head>
+<body>
+    <main class="main">
+        <form action="" class="form">
+            <div class="container">
+                <div class="container__title">
+                    <div class="container__title__img">
+                        
+                    </div>
+                    <h2 class="container__title__item">Desafio Alura</h2>
+                    <div class="container__title__img">
+                        <img src="nd.png" alt="laptop icon">
+                    </div>
+                </div>
+                <div class="container__entrada">
+                    <label for="entradaTexto" class="container__entrada__label">Insira seu texto</label>
+                    <textarea id="txt1" class="container__entrada__input" placeholder="Digite seu texto..."></textarea>                 
+                </div>
+                <div class="container__buttons">
+                    <button type='button' id='botCod' onclick="criptografar()" class="container__buttons__item">codificar</button>
+                    <button type='button' id="botaoDescod" onclick="desCriptografar()" class="container__buttons__item">decodificar</button>
+                </div>
+                <div id="output" class="container__saida">
+                    <label for="saidaTexto" class="container__saida__label">Resultado</label>
+                    <textarea id="txt2" class="container__entrada__input" placeholder="Veja seu texto codificado!"></textarea>                    
+                </div>
+            </div>
+        </form>
+    </main>
+    <script src="../../scripts/decoder.js" ></script>     
+</body>
+</html>
